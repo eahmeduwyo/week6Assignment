@@ -116,7 +116,7 @@ Main = (function () {
                     },
 
       featureReduction: {
-        type: "cluster", // ✅ enables clustering
+        type: "cluster", // enables clustering
         clusterRadius: "80px",
       },
     });
