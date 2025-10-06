@@ -88,7 +88,7 @@ Main = (function () {
       graphics.push(graphic);
     }
 
-    // FeatureLayer with clustering
+    // FeatureLayer with Clustering
     const featureLayer = new FeatureLayer({
       source: graphics,
       objectIdField: "ObjectID",
@@ -116,7 +116,7 @@ Main = (function () {
                     },
 
       featureReduction: {
-        type: "cluster", // enables clustering
+        type: "cluster", // Enables Clustering
         clusterRadius: "80px",
       },
     });
